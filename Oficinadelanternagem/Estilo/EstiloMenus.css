@@ -1,0 +1,46 @@
+body {
+    font-family: 'Maven Pro', Arial, sans-serif; /* Fonte Gagalin ou fallback para Arial ou sans-serif */
+    background-color: #e5f2f9; /* Cor de fundo azul claro e calmo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #1a1a1a; /* Cor do título */
+    margin-bottom: 30px;
+   
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 200px); /* 1 coluna com 200px de largura */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+a {
+    text-decoration: none;
+}
+.button-icon {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7CB3BF; /* Cor do botão azul claro */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease; /* Mudança de cor mais rápida e transformação mais suave */
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2583cb; /* Cor do botão ao passar o mouse (tom mais escuro do azul) */
+    transform: scale(1.20); /* Efeito de aumento no tamanho */
+}
+

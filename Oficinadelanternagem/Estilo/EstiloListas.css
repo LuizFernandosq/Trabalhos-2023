@@ -1,0 +1,78 @@
+table {
+    padding: 5px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    color: #537880;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    
+
+ 
+ }
+ 
+ 
+
+ tr:nth-child(even){
+    background-color: #B8D8DF
+    ;
+}
+tr:nth-child(odd){
+    background-color:  #DCECF3 ;
+}
+body {
+    font-family: 'Maven Pro', Arial, sans-serif;
+    background-color: #e5f2f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    font-family: 'Maven Pro', Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7CB3BF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2583cb;
+    transform: scale(1.20);
+}
+
+th, td {
+    padding: 8px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    gap: 10px;
+}
+
+
+
+.report-button {
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #537880;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+

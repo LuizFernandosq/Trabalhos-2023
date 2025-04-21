@@ -1,0 +1,133 @@
+/* Estilos para a página */
+body {
+    font-family: 'Maven Pro', Arial, sans-serif;
+    background-color: #e5f2f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 1000px;
+    z-index: 2;
+}
+
+/* Estilo para o título de nível 1 */
+h1 {
+    color: #1a1a1a;
+    align-items: center;
+    font-size: 24px; /* Experimente ajustar o tamanho da fonte conforme necessário */
+    margin-top: 20px; /* Aumente essa margem para adicionar mais espaço acima do título */
+    margin-bottom: 20px;
+    
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+   
+}
+
+/* Estilo para botões */
+button {
+    padding: 8px 16px;
+    background-color: #7CB3BF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+/* Efeito quando o mouse passa sobre o botão */
+button:hover {
+    background-color: #2583cb;
+    transform: scale(1.2);
+}
+
+/* Estilo para campos de entrada e seleção */
+fieldset {
+    background-color: #537880;
+    margin-right: 0.5em;
+    z-index: 1;
+    border: none;
+    align-items: center;
+    padding: 1em; /* Adiciona espaçamento interno */
+    border-radius: 20px; /* Adiciona cantos arredondados */
+    width: 400px; /* Preenche a largura disponível */
+    max-width: 800px; /* Define uma largura máxima */
+    margin-bottom: 1em; /* Adiciona espaçamento na parte inferior */
+    
+}
+
+/* Espaçamento entre labels e inputs */
+label {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: block;
+    color: #e5f2f9;
+}
+
+/* Largura padronizada para inputs e selects */
+input, select {
+    border-radius: 50px;
+    border: none;
+    width: 100%; /* Preenche a largura disponível */
+    max-width: 350px; /* Define uma largura máxima */
+    padding: 8px;
+    background-color: #f3fdff;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.campo {
+    margin-left: 20px;
+    margin-right: 40px; 
+    margin-bottom: 15px;
+    
+}
+
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.radio input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.radio label {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o rótulo e o input */
+    color: #e5f2f9 ;
+}
+
+
+
+.radio fieldset{
+    background-color: #0f232d;
+    z-index: 1;
+    border: none;
+    border-radius: 20px; /* Adiciona cantos arredondados */
+    width: 100px; /* Preenche a largura disponível */
+    max-width: 800px; /* Define uma largura máxima */
+    
+}
+/* Estilo para os campos de entrada e seleção */
+input[type="number"],
+input[type="text"],
+select {
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    background-color: #f3fdff;
+    align-items: center;
+    margin-bottom: 10px;
+}
